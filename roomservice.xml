@@ -3,11 +3,11 @@
         
  <remote  name="msm8974"
     fetch="https://github.com/samsung-msm8974"
-    revision="lineage-21" />
+    revision="lineage-20" />
 
  <remote  name="linos"
     fetch="https://github.com/LineageOS"
-    revision="lineage-21" />
+    revision="lineage-20" />
 
     <!--LineageOS -->
     <project name="android_hardware_samsung" path="hardware/samsung" remote="linos" />
