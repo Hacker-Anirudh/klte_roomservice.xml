@@ -3,14 +3,15 @@
         
  <remote  name="msm8974"
     fetch="https://github.com/samsung-msm8974"
-    revision="lineage-21" />
+    revision="lineage-19.1" />
 
  <remote  name="linos"
     fetch="https://github.com/LineageOS"
-    revision="lineage-21" />
+    revision="lineage-19.1" />
 
     <!--LineageOS -->
     <project name="android_hardware_samsung" path="hardware/samsung" remote="linos" />
+    <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="linos"/>
         
     <!--Device -->
     <project name="device_samsung_klte" path="device/samsung/klte" remote="msm8974" />
