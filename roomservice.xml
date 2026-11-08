@@ -21,7 +21,7 @@
     <project name="device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="msm8974-2" />
            
     <!--Kernel -->
-    <project name="tuned_kernel_msm8974" path="kernel/samsung/msm8974" remote="msm8974-2" />
+    <project name="tuned-kernel-msm8974" path="kernel/samsung/msm8974" remote="msm8974-2" />
     
     <!--Vendor -->
     <project name="vendor_samsung" path="vendor/samsung" remote="msm8974" />
