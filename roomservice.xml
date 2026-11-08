@@ -24,7 +24,7 @@
     <project name="tuned-kernel-msm8974" path="kernel/samsung/msm8974" remote="msm8974-2" />
     
     <!--Vendor -->
-    <project name="vendor_samsung" path="vendor/samsung" remote="msm8974" />
+    <project name="vendor_samsung" path="vendor/samsung" remote="msm8974-2" />
 
     <!-- GCC 16 -->
     <project name="arm-unknown-eabihf" path="prebuilts/gcc/linux-x86/arm/gcc16" remote="msm8974-2" />
