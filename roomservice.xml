@@ -18,12 +18,15 @@
         
     <!--Device -->
     <project name="device_samsung_klte" path="device/samsung/klte" remote="msm8974" />
-    <project name="device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="msm8974" />
+    <project name="device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="msm8974-2" />
            
     <!--Kernel -->
-    <project name="kernel_samsung_msm8974" path="kernel/samsung/msm8974" remote="msm8974-2" />
+    <project name="tuned_kernel_msm8974" path="kernel/samsung/msm8974" remote="msm8974-2" />
     
     <!--Vendor -->
     <project name="vendor_samsung" path="vendor/samsung" remote="msm8974" />
+
+    <!-- GCC 16 -->
+    <project name="arm-unknown-eabihf" path="prebuilts/gcc/linux-x86/arm/gcc16" remote="msm8974-2" />
                   
  </manifest>
